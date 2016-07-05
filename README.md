@@ -27,7 +27,8 @@ What's Included
 	that the distance is in meters or miles respectively. If you want to use a custom radius
 	for the earth, you can use wp_buffer_point_real.
 
-	Since WKT 
+	These buffer functions return polygons, not actual circles. You can determine how many
+	points the polygon contains with the segments argument. PostGIS defaults to 32.
 
 	- wp_buffer_point_m(p POINT, radius FLOAT, segments INT) RETURNS POLYGON
 	- wp_buffer_point_mi(p POINT, radius FLOAT, segments INT) RETURNS POLYGON
