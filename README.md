@@ -36,7 +36,7 @@ What's Included
 
  * Distance -- distance_point.sql 
 
-	Determine the great-circle distance between two points using teh Haversine formula. 
+	Determine the great-circle distance between two points using the Haversine formula. 
 
 	Similar to the buffering functions above, the _m and _mi formulas return distances in meters and 
 	miles respectively.
