@@ -77,6 +77,8 @@ for more details.
 Screenshots
 -----------
 
-Here's a sample screenshot of a point having been buffered with an 8 point polygon. 
+Here's a sample screenshot of a point (in red) having been buffered with an 8 point polygon. 
 
 ![8 point buffer screenshot](./8_point_buffer.png) 
+
+The Marker is the result of an ST_INTERSECTS query.
