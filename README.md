@@ -62,3 +62,21 @@ What's Included
 	appending to a Well Known Text (WKT) geometry definition.
 
     - wp_point_bearing_distance_coord_pair(p POINT, bearing FLOAT, distance FLOAT, eradius INTEGER) RETURNS VARCHAR(50)
+
+
+Installation
+------------
+
+Run each of the .sql scripts in your preferred SQL client. You will need to do
+this for each database where you want these functions to be available. 
+
+You could optionally create a specific schema just for the spatial functions and 
+store them there. See [this StackOverflow thread](http://dba.stackexchange.com/questions/50678/mysql-possibility-to-create-global-routines-stored-procedures-and-or-functions)
+for more details.
+
+Screenshots
+-----------
+
+Here's a sample screenshot of a point having been buffered with an 8 point polygon. 
+
+![8 point buffer screenshot](./8_point_buffer.png) 
